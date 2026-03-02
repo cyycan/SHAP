@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 What's Inside
+## What's Inside
 
 The framework is delivered as a single, self-contained Jupyter notebook structured into 8 sections:
 
@@ -27,7 +27,7 @@ The framework is delivered as a single, self-contained Jupyter notebook structur
 
 ---
 
-## 🤖 Supported Model Types
+## Supported Model Types
 
 | Model Type | SHAP Explainer | Models |
 |------------|---------------|--------|
@@ -80,7 +80,7 @@ Everything else adapts automatically.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 All governance thresholds are centralised in **Section 4.1**:
 
@@ -106,7 +106,7 @@ BIAS_THRESHOLD = 0.05        # Flag if protected attribute explains > 5% of SHAP
 
 ---
 
-## 📦 Output Artefacts
+## Output Artefacts
 
 After running the full notebook, the following artefacts are produced:
 
@@ -126,7 +126,7 @@ After running the full notebook, the following artefacts are produced:
 
 ---
 
-## 🏛️ Governance Framework
+## Governance Framework
 
 ### Quality Gates (Section 4)
 
@@ -148,7 +148,7 @@ Compares SHAP value distributions between a reference window and current data us
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 shap-governance-framework/
@@ -160,7 +160,7 @@ shap-governance-framework/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 shap
@@ -189,7 +189,7 @@ pip install tensorflow           # TensorFlow / Keras
 
 ---
 
-## 📖 References
+## References
 
 - [Lundberg & Lee (2017) — A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
 - [SHAP Documentation](https://shap.readthedocs.io/en/latest/)
@@ -198,7 +198,7 @@ pip install tensorflow           # TensorFlow / Keras
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
